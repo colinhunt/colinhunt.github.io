@@ -1,0 +1,27 @@
+#content {
+}
+
+#sidebar {}
+
+#avatar {
+    max-width: 200pt;
+    display: inline;
+}
+
+#my-info {
+    display: inline;
+}
+
+footer {display:none;}
+
+body {
+    background-color: White;
+}
+
+.my-card {
+    box-shadow: none;
+}
+
+/*.site-description {display:none;}
+.site-title {display:none;}
+*/
