@@ -1,27 +1,66 @@
-#content {
+#avatar img {
+    border-radius: 50%;
+    width: 100%;
+    filter: grayscale(70%);
+    margin: auto;
 }
 
-#sidebar {}
+#avatar-name {
+    display: none;
+}
+
+#contact-avatar-skills {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#skills > h2 {
+    text-align: right;
+}
+
+#about {
+    width: 40%;
+}
 
 #avatar {
-    max-width: 200pt;
-    display: inline;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: 2em;
+    align-self: center;
+    border-style: dotted;
+    border-width: 8px;
+    border-color: teal;
+    border-radius: 50%;
 }
 
-#my-info {
-    display: inline;
+#skills {
+    width: 40%;
 }
 
-footer {display:none;}
-
-body {
-    background-color: White;
+.container > h1 {
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-.my-card {
-    box-shadow: none;
+i {
+    margin-right: 1em;
 }
 
-/*.site-description {display:none;}
-.site-title {display:none;}
-*/
+#skills > ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+#skills > ul > li {
+    display: inline-block;
+    background-color: teal;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+}

@@ -7,151 +7,104 @@
 <link rel='stylesheet' media="all" href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="resume.css">
+<!-- <link rel="stylesheet" media="screen" href="resume.css"> -->
+<link rel="stylesheet" media="all" href="print.css">
+
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <body>
-<div id="bg-overlay">
-<!-- Page Container -->
-<div class="container">
-  
-    <!-- Left Column -->
-    <div id="sidebar">
-    
-      <div id="avatar-contact" class="my-card">
-        <div id="avatar" class="w3-display-container">
-          <img src="/avatar.jpg" style="width:100%" alt="Avatar">
-          <div id="avatar-name">
-            <h2>Colin Hunt</h2>
+  <div id="bg-overlay">
+    <!-- Page Container -->
+    <div class="container">
+      
+      <h1>COLIN HUNT</h1>
+      <hr/>
+      <!-- Contact Avatar Skills -->
+      <div id="contact-avatar-skills">
+
+        <div id="about">
+          <h2>About Me</h2>
+          <p>Computing Science graduate with over three years of industry experience. I also bring years of life experience plus a passion for building great software with me to work every day. I love applying sound principles to find elegant solutions to real problems. To me, finding the best way to build something is as much fun as why I am building it!</p>
+        </div>
+      
+        <div id="avatar" class="my-card">
+          <img src="/avatar.jpg" alt="Avatar">
+        </div>
+        
+        <div id="skills">
+
+          <h2>Skills</h2>
+
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Git</li>
+            <li>CSS</li>
+            <li>HTML 5</li>
+            <li>Linux</li>
+            <li>C++</li>
+            <li>SOA</li>
+            <li>Web Applications</li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Left Column -->
+      <hr/>
+      <!-- Right Column -->
+      <div id="content">
+      
+        <div id="work-experience" class="my-card card-content">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Software Developer / Pason</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+            <p>
+            At Pason I am a Full-Stack developer building applications and services using HTML5, CSS, JavaScript, Python, and Java with MySQL and NoSQL databases on Linux platforms using SOA.
+            <p> I am currently part of a team focused on building a real-time HTML5 web application for viewing drilling data using the React and Redux JavaScript frameworks. Before that, I worked on the Drilling Guidance project focused on improving drilling rig efficiency by helping engineers to manage, retrieve, analyze, and digest drilling data. This allows learning from past results to inform future operations and more efficient communication of this knowledge to the rig site. I was involved both in the backend and on the frontend. 
+            <p>I have also been involved in modernizing our Deployment Pipeline where I worked with Ansible, Puppet, Docker, and Jenkins to implement Continuously Deployment to multiple environments.
+            <p> Pason practices Agile methodologies and I have experience with both Scrum and Kanban.
+            </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Software Developer Intern / Pason</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2013 - Aug 2014</h6>
+            <p>I spent the bulk of my internship on a brand new team building a set of distributed Java services using SOA and Service Discovery to perform drilling data analysis, storage, and retrieval. We were partnered with a third party in Europe, giving me valuable experience working with a remote team. As well, I helped improved the flagship web application built with Python and MySQL.
+            </p>
           </div>
         </div>
-        <div id="contact" class="card-content">
+
+        <div id="education" class="my-card card-content">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>University of Alberta</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2015</h6>
+            <p>Computing Science Degree with Distinction 
+            <p>Specialization with Business Minor and Internship Program
+            <p>3.8 GPA
+            <p>Member of the Programming Club
+            </p>
+          </div>
+        </div>
+
+        <div id="contact" class="my-card">
+          <h2>Contact</h2>
+
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Developer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Calgary, Canada</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>colin.hunt@me.com</p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>780-915-2015</p>
           <a href="https://www.linkedin.com/in/colin-hunt">
             <p><i class="fa fa-linkedin fa-fw"></i>/colin-hunt</p></a>
-
         </div>
+
+      <!-- End Right Column -->
       </div>
-      
-      <div id="my-info" class="my-card">
-
-      <div class="card-content">
-        <div id="skills">
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <span>Python</span>
-          <span class="w3-light-grey w3-round-xlarge w3-small">
-            <span class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</span>
-          </span>
-
-          <p/>
-          <span>EcmaScript</span>
-          <span class="w3-light-grey w3-round-xlarge w3-small">
-            <span class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <span class="w3-center w3-text-white">80%</span>
-            </span>
-          </span>
-
-          <p/>
-          <span>Java</span>
-          <span class="w3-light-grey w3-round-xlarge w3-small">
-            <span class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</span>
-          </span>
-
-          <p/>
-          <span>Web</span>
-          <span class="w3-light-grey w3-round-xlarge w3-small">
-            <span class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</span>
-          </span>
-          <br>
-
-        </div>
-
-<!--         <div id="languages">
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-
-          <p/>
-          <span>English</span>
-          <span class="w3-light-grey w3-round-xlarge">
-            <span class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></span>
-          </span>
-
-          <p/>
-          <span>Spanish</span>
-          <span class="w3-light-grey w3-round-xlarge">
-            <span class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></span>
-          </span>
-
-          <p/>
-          <span>German</span>
-          <span class="w3-light-grey w3-round-xlarge">
-            <span class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></span>
-          </span>
-          <br>
-
-        </div>
- -->
-        </div>
-      </div>
-      </div>
-    <!-- End Left Column -->
-
-    <!-- Right Column -->
-    <div id="content">
-    
-      <div id="work-experience" class="my-card card-content">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Software Developer / Pason</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>
-          At Pason I am a Full-Stack developer building applications and services using HTML5, CSS, JavaScript, Python, and Java with MySQL and NoSQL databases on Linux platforms using SOA.
-          <p> I am currently part of a team focused on building a real-time HTML5 web application for viewing drilling data using the React and Redux JavaScript frameworks. Before that, I worked on the Drilling Guidance project focused on improving drilling rig efficiency by helping engineers to manage, retrieve, analyze, and digest drilling data. This allows learning from past results to inform future operations and more efficient communication of this knowledge to the rig site. I was involved both in the backend and on the frontend. 
-          <p>I have also been involved in modernizing our Deployment Pipeline where I worked with Ansible, Puppet, Docker, and Jenkins to implement Continuously Deployment to multiple environments.
-          <p> Pason practices Agile methodologies and I have experience with both Scrum and Kanban.
-          </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Software Developer Intern / Pason</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2013 - Aug 2014</h6>
-          <p>I spent the bulk of my internship on a brand new team building a set of distributed Java services using SOA and Service Discovery to perform drilling data analysis, storage, and retrieval. We were partnered with a third party in Europe, giving me valuable experience working with a remote team. As well, I helped improved the flagship web application built with Python and MySQL.
-          </p>
-        </div>
-      </div>
-
-      <div id="education" class="my-card card-content">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>University of Alberta</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2015</h6>
-          <p>Computing Science Degree with Distinction 
-          <p>Specialization with Business Minor and Internship Program
-          <p>3.8 GPA
-          <p>Member of the Programming Club
-          </p>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
+          
+    <!-- End Page Container -->
     </div>
-      
-  <!-- End Page Container -->
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-twitter w3-hover-text-light-blue w3-large"></i>
-  <i class="fa fa-linkedin w3-hover-text-indigo w3-large"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-
-</div>
-
-<!-- <link rel="stylesheet" media="print" href="print.css"> -->
-</div>
+  </div>
 </body>
 </html>
