@@ -5,6 +5,12 @@
     margin: auto;
 }
 
+#sf-icon {
+    color: teal;
+    width: 16px;
+    margin-right: .5em;
+}
+
 #avatar-name {
     display: none;
 }
@@ -15,16 +21,12 @@
     justify-content: space-between;
 }
 
-#skills > h2 {
-    text-align: right;
-}
-
 #about {
-    width: 40%;
+    width: 80%;
 }
 
 #avatar {
-    display: flex;
+    display: none;
     align-items: center;
     width: 20%;
     margin: 2em;
@@ -36,22 +38,12 @@
 }
 
 #skills {
-    width: 40%;
-}
-
-.container > h1 {
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-i {
-    margin-right: 1em;
+    width: 50%;
 }
 
 #skills > ul {
     list-style-type: none;
     padding: 0;
-    text-align: right;
 }
 
 #skills > ul > li {
@@ -63,4 +55,97 @@ i {
     margin-right: 5px;
     border-radius: 5px;
     color: white;
+}
+
+#experience-projects {
+    display: flex;
+}
+
+#projects,
+#work-experience {
+    display: flex;
+    flex-direction: column;
+}
+
+#work-experience {
+    /*page-break-after: always;*/
+}
+
+#projects {
+}
+
+#fuegito,
+#internship {
+}
+
+#education-contact {
+    display: flex;
+}
+
+#projects a {
+    color: grey;
+    font-style: italic;
+}
+
+#contact {
+    width: 40%;
+}
+
+#education {
+    width: 60%;
+}
+
+#education-contact .vertical-divider {
+    margin-left: 0;
+}
+
+header {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+hr {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.divider {
+    margin: 20px;
+}
+
+.vertical-divider {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 2px dotted grey;
+}
+
+.horizontal-divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px dotted grey;
+}
+
+i {
+    color: teal;
+    margin-right: .5em;
+}
+
+h2 > i {
+    margin-right: .5em;
+}
+
+#education ul {
+    padding-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
 }

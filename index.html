@@ -18,90 +18,115 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Page Container -->
     <div class="container">
       
-      <h1>COLIN HUNT</h1>
-      <hr/>
+      <header>
+        <h1>COLIN HUNT</h1>
+        <hr/>
+      </header>
       <!-- Contact Avatar Skills -->
       <div id="contact-avatar-skills">
 
         <div id="about">
-          <h2>About Me</h2>
-          <p>Computing Science graduate with over three years of industry experience. I also bring years of life experience plus a passion for building great software with me to work every day. I love applying sound principles to find elegant solutions to real problems. To me, finding the best way to build something is as much fun as why I am building it!</p>
+          <h2><i class="fa fa-info-circle"></i>About Me</h2>
+          <p>I am a Computing Science graduate with over three years of industry experience. I also bring years of life experience plus a passion for building great software to my work every day. I love applying sound principles to find elegant solutions to real problems. I believe finding the best way to build something is as important as why I am building it!</p>
         </div>
-      
+        
         <div id="avatar" class="my-card">
           <img src="/avatar.jpg" alt="Avatar">
         </div>
-        
+        <div class="dotted vertical-divider"></div>
         <div id="skills">
 
-          <h2>Skills</h2>
+          <h2><i class="fa fa-check-square"></i>Skills</h2>
 
           <ul>
             <li>Python</li>
             <li>JavaScript</li>
-            <li>Java</li>
-            <li>Git</li>
-            <li>CSS</li>
             <li>HTML 5</li>
-            <li>Linux</li>
+            <li>CSS</li>
+            <li>Java</li>
             <li>C++</li>
+            <li>Linux</li>
+            <li>Git</li>
             <li>SOA</li>
+            <li>MySQL</li>
             <li>Web Applications</li>
           </ul>
         </div>
       </div>
       <!-- End Left Column -->
-      <hr/>
+      <div class="dotted horizontal-divider"></div>
       <!-- Right Column -->
-      <div id="content">
       
         <div id="work-experience" class="my-card card-content">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Software Developer / Pason</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <h2><i class="fa fa-suitcase fa-fw"></i>Work Experience</h2>
+          <div id="pason">
+            <h3 class="w3-opacity"><b>Software Developer / Pason</b></h3>
+            <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h5>
             <p>
-            At Pason I am a Full-Stack developer building applications and services using HTML5, CSS, JavaScript, Python, and Java with MySQL and NoSQL databases on Linux platforms using SOA.
-            <p> I am currently part of a team focused on building a real-time HTML5 web application for viewing drilling data using the React and Redux JavaScript frameworks. Before that, I worked on the Drilling Guidance project focused on improving drilling rig efficiency by helping engineers to manage, retrieve, analyze, and digest drilling data. This allows learning from past results to inform future operations and more efficient communication of this knowledge to the rig site. I was involved both in the backend and on the frontend. 
-            <p>I have also been involved in modernizing our Deployment Pipeline where I worked with Ansible, Puppet, Docker, and Jenkins to implement Continuously Deployment to multiple environments.
+            At Pason I am a Full-Stack developer building web applications and services using HTML5, CSS, JavaScript, Python, and Java backed by MySQL and NoSQL databases on Linux platforms using SOA.
+            <p> I am currently part of a team focused on building a real-time single-page HTML5 web application for viewing drilling data written in the React/Redux JavaScript frameworks and backed by Java 8 services. Before that, I worked on the flagship Python web application.
+            <p>I have also been involved in modernizing our Deployment Pipeline where I worked with Ansible, Puppet, Docker, and Jenkins to implement Continuously Deployment to multiple cloud environments including OpenStack and AWS.
             <p> Pason practices Agile methodologies and I have experience with both Scrum and Kanban.
             </p>
-            <hr>
           </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Software Developer Intern / Pason</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2013 - Aug 2014</h6>
-            <p>I spent the bulk of my internship on a brand new team building a set of distributed Java services using SOA and Service Discovery to perform drilling data analysis, storage, and retrieval. We were partnered with a third party in Europe, giving me valuable experience working with a remote team. As well, I helped improved the flagship web application built with Python and MySQL.
+          <div id="internship">
+            <h3 class="w3-opacity"><b>Software Developer Intern / Pason</b></h3>
+            <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2013 - Aug 2014</h5>
+            <p>I spent the bulk of my internship on a brand new team building a set of distributed Java services using SOA and Service Discovery to perform drilling data analysis, storage, and retrieval. 
+            <p>We were partnered with a third party in Europe, giving me valuable experience working with a remote team.
+            <p>As well, I helped improve the flagship web application built with Python and MySQL.
             </p>
           </div>
         </div>
+        <div class="dotted vertical-divider"></div>
+  
+        <div id="projects">
+          <h2><i class="fa fa-cubes fa-fw"></i>Projects</h2>
 
-        <div id="education" class="my-card card-content">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>University of Alberta</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2015</h6>
-            <p>Computing Science Degree with Distinction 
-            <p>Specialization with Business Minor and Internship Program
-            <p>3.8 GPA
-            <p>Member of the Programming Club
-            </p>
+          <div id="fuegito">
+            <h3><b>Fuegito</b></h3>
+            <p>Designed and built Fuegito, an open-source C++ framework for games intended to be used in university courses to allow students to easily implement two-player deterministic games and game-playing algorithms. Wrote implementations for the games Clobber and Tic Tac Toe, and eight AI algorithms including alpha beta search and Monte Carlo search. Tested the performance of Monte Carlo algorithms and their variations. </p>
+            <a href="https://sourceforge.net/projects/fuegito">
+            sourceforge.net/projects/fuegito</a>
+          </div>
+          <div id="ris">
+            <h3><b>Radiology Information System</b></h3>
+            <p>Worked with a school team to create a mock web-based Radiology Information System that stores and processes the information for a radiology lab, including patient data and medical images generated by diagnostic and therapeutic equipment. The application was built using the Python-based Flask web framework and uses SQLAlchemy to interface with a MySQL database. </p>
+            <a href="https://github.com/colinhunt/RIS">
+            github.com/colinhunt/RIS</a>
           </div>
         </div>
+        <div class="dotted horizontal-divider"></div>
+        
+        <div id="education-contact">
+          <div id="contact" class="my-card">
+            <h2><i class="fa fa-address-book"></i>Contact</h2>
 
-        <div id="contact" class="my-card">
-          <h2>Contact</h2>
-
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Developer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Calgary, Canada</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>colin.hunt@me.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>780-915-2015</p>
-          <a href="https://www.linkedin.com/in/colin-hunt">
-            <p><i class="fa fa-linkedin fa-fw"></i>/colin-hunt</p></a>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Calgary, Canada</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>colin.hunt@me.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>780-915-2015</p>
+            <p><a href="https://www.linkedin.com/in/colin-hunt">
+              <i class="fa fa-linkedin fa-fw"></i>linkedin.com/in/colin-hunt</a></p>
+            <p><a href="https://github.com/colinhunt">
+              <i class="fa fa-github fa-fw"></i>github.com/colinhunt</a></p>
+          </div>
+          <div class="dotted vertical-divider"></div>
+          <div id="education" class="my-card card-content">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+            <div class="w3-container">
+              <h3 class="w3-opacity"><b>University of Alberta</b></h3>
+              <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2015</h5>
+              <ul>
+                <li>Computing Science Degree with Distinction </li>
+                <li>Specialization with Business Minor and Internship Program</li>
+                <li>3.8 GPA</li>
+                <li>Member of the Programming Club</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
       <!-- End Right Column -->
-      </div>
           
     <!-- End Page Container -->
     </div>
