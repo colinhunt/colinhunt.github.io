@@ -62,41 +62,72 @@
 }
 
 #projects,
+#education-projects,
 #work-experience {
     display: flex;
     flex-direction: column;
 }
 
+#education-projects,
 #work-experience {
-    /*page-break-after: always;*/
-}
-
-#projects {
+    page-break-after: always;
 }
 
 #fuegito,
 #internship {
 }
 
-#education-contact {
+#education-awards {
     display: flex;
 }
 
-#projects a {
+#projects-top a,
+#projects-bottom a {
     color: grey;
     font-style: italic;
 }
 
 #contact {
-    width: 40%;
+    /*width: 40%;*/
 }
 
 #education {
-    width: 60%;
+}
+
+#projects-top {
+    width: 120%;
+}
+
+#education-contact {
+    border-left: 2px dotted grey;
+    border-bottom: 2px dotted grey;
+    width: 100%;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
 #education-contact .vertical-divider {
     margin-left: 0;
+}
+
+#education-projects .top {
+    display: flex;
+}
+
+#awards h5 span {
+    margin-right: 20px;
+}
+
+#awards > div {
+    border: 1px dashed grey;
+    border-radius: 10px;
+    display: inline-block; 
+    padding: 10px;
+    margin: 5px;
+}
+
+#awards h3 {
+    margin-top: 0;
 }
 
 header {
@@ -124,6 +155,12 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     border-top: 2px dotted grey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
 }
 
 i {
