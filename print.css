@@ -68,7 +68,6 @@
     flex-direction: column;
 }
 
-#education-projects,
 #work-experience {
     page-break-after: always;
 }
