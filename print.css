@@ -22,7 +22,11 @@
 }
 
 #about {
-    width: 80%;
+    width: 50%;
+}
+
+#contact {
+    width: 40%;
 }
 
 #avatar {
@@ -62,14 +66,14 @@
 }
 
 #projects,
-#education-projects,
+#education,
 #work-experience {
     display: flex;
     flex-direction: column;
 }
 
 #work-experience {
-    page-break-after: always;
+    /*page-break-after: always;*/
 }
 
 #fuegito,
@@ -109,7 +113,7 @@
     margin-left: 0;
 }
 
-#education-projects .top {
+#education .top {
     display: flex;
 }
 
@@ -118,15 +122,28 @@
 }
 
 #awards > div {
-    border: 1px dashed grey;
-    border-radius: 10px;
-    display: inline-block; 
-    padding: 10px;
-    margin: 5px;
+    /*border: 1px dashed grey;*/
+    /*border-radius: 10px;*/
+    /*display: inline-block; */
+    /*padding: 10px;*/
+    /*margin: 5px;*/
 }
 
-#awards h3 {
-    margin-top: 0;
+#awards h4 {
+    margin-bottom: 0;
+}
+
+#awards h5 {
+    margin: 10px;
+}
+
+#education h3, h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#education h5 {
+    margin: 10px;
 }
 
 header {

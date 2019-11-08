@@ -27,7 +27,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
         <div id="about">
           <h2><i class="fa fa-info-circle"></i>About Me</h2>
-          <p>I am a Computing Science graduate with over three years of industry experience. I also bring years of life experience plus a passion for building great software to my work every day. I love applying sound principles to find elegant solutions to real problems. I believe finding the best way to build something is as important as why I am building it!</p>
+          <p>I am a Computing Science graduate with over five years of industry experience and even more life experience. I have a passion for applying sound principles to find elegant solutions for crafting great software.</p>
         </div>
         
         <div id="avatar" class="my-card">
@@ -39,11 +39,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h2><i class="fa fa-check-square"></i>Skills</h2>
 
           <ul>
+            <li>Java</li>
             <li>Python</li>
             <li>JavaScript</li>
+            <li>React</li>
             <li>HTML 5</li>
             <li>CSS</li>
-            <li>Java</li>
             <li>C++</li>
             <li>Linux</li>
             <li>Git</li>
@@ -52,30 +53,46 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <li>Web Applications</li>
           </ul>
         </div>
+        <div class="dotted vertical-divider"></div>
+
+        <div id="contact" class="my-card">
+          <h2><i class="fa fa-address-book"></i>Contact</h2>
+
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Calgary, Canada</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>colin.hunt@me.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>780-915-2015</p>
+          <p><a href="https://github.com/colinhunt">
+            <i class="fa fa-github fa-fw"></i>colinhunt</a></p>
+        </div>
+
       </div>
       <!-- End Left Column -->
       <div class="dotted horizontal-divider"></div>
       <!-- Right Column -->
       
       <div id="work-experience" class="my-card card-content">
-          <h2><i class="fa fa-suitcase fa-fw"></i>Work Experience</h2>
+          <h2><i class="fa fa-suitcase fa-fw"></i>Industry Experience</h2>
           <div id="pason">
-            <h3 class="w3-opacity"><b>Software Developer / Pason</b></h3>
+            <h3 class="w3-opacity"><b>Intermediate Software Developer / Pason</b></h3>
             <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h5>
             <p>
-            At Pason I am a Full-Stack developer building web applications and services using HTML5, CSS, JavaScript, Python, and Java backed by MySQL and NoSQL databases on Linux platforms using SOA.
-            <p> I am currently part of a team focused on building a real-time single-page HTML5 web application for viewing drilling data written in the React/Redux JavaScript frameworks and backed by Java 8 services. Before that, I worked on the flagship Python web application.
-            <p>I have also been involved in modernizing our Deployment Pipeline where I worked with Ansible, Puppet, Docker, and Jenkins to implement Continuously Deployment to multiple cloud environments including OpenStack and AWS.
+            At Pason I am a Full-Stack developer building services and web applications using Java, JavaScript, Python, HTML5, and CSS, backed by MySQL and NoSQL databases, running on Linux platforms using SOA and deployed in AWS.
+            
+            <h4><i class="fa fa-cubes fa-fw"></i>Projects</h4>
+            <b>High-frequency, low-latency drilling data:</b> Currently the senior member of the team responsible for finishing our HFLL drilling-data project. The project's goals are to provide customers with live-streaming, high-frequency sensor data from drilling rigs, to persist and read the data for historical analysis, and to handle outages with no data loss.
+            The system is developed using multi-threaded Java clients and servers communicating over websockets, and writing data to MySQL databases.
+            <p>
+            <b>Pason live:</b> Developed a real-time web application for customers to view their live and historical drilling data from their rigs. The client is written in React/Redux and communicates over HTTP and websockets to the backend, which is composed of distributed Java 8 services that utilize MySQL and JMS.
+            <p>
+            <b>DataHub web app:</b> Maintained the flagship web application written using a Python web framework by adding small features, making optimizations, and fixing bugs.
+            <p>
+            <b>Deployment pipeline:</b> Modernized our Deployment Pipeline using Ansible, Puppet, Docker, and Jenkins to implement Continuous Deployment to OpenStack and AWS.
             <p> Pason practices Agile methodologies and I have experience with both Scrum and Kanban.
             </p>
           </div>
           <div id="internship">
             <h3 class="w3-opacity"><b>Software Developer Intern / Pason</b></h3>
             <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2013 - Aug 2014</h5>
-            <p>I spent the bulk of my internship on a brand new team building a set of distributed Java services using SOA and Service Discovery to perform drilling data analysis, storage, and retrieval. 
-            <p>We were partnered with a third party in Europe, giving me valuable experience working with a remote team.
-            <p>As well, I helped improve the flagship web application built with Python and MySQL.
-            </p>
           </div>
       </div>
       <div class="header">
@@ -83,95 +100,38 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <span>2/3</span>
       </div>
       <div class="dotted horizontal-divider"></div>
-      <div id="education-projects">
+      <div id="education">
 
         <div class="top">
           <div id="projects-top">
-            <h2><i class="fa fa-cubes fa-fw"></i>Projects</h2>
-
-            <div id="lweb">
-              <h3><b>Live Rig View Beta</b></h3>
-              <p>Live Rig View (LRV) Beta is a customizable, web-based data viewer for the office. It provides powerful visualization tools that display real-time drilling data and provide an accurate overview of current rig activity. LRV Beta delivers the most popular features of the legacy LRV in a browser-based application that supports one-second data updates (1 Hz data) and sidesteps the limitations and problems of Java.</p>
-              <a href="http://help.pason.com/lrv_help/LRV_Web_Help_EN.htm">
-              help.pason.com/lrv_help/LRV_Web_Help_EN.htm</a>
-            </div>
-
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+              <h3 class="w3-opacity"><b>Computing Science Degree / University of Alberta</b></h3>
+              <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2015</h5>
+              <p>
+                Received a Bachelor of Science with Specialization in Computing Science and a Business Minor. Graduated with Distinction holding a 3.9 GPA, acheiving First Class Standing in all years attended. Won an Undergraduate Student Research Award, participated in the Industrial Internship Program, and was a member of the Programming Club.</p>
+            <h3><i class="fa fa-flask"></i>Undergraduate Research Project</h3>
             <div id="fuegito">
-              <h3><b>Fuegito</b></h3>
-              <p>Designed and built Fuegito, an open-source C++ framework for games intended to be used in university courses to allow students to easily implement two-player deterministic games and game-playing algorithms. Wrote implementations for the games Clobber and Tic Tac Toe, and eight AI algorithms including alpha beta search and Monte Carlo search. Tested the performance of Monte Carlo algorithms and their variations. </p>
+              <h4><b>Fuegito</b></h4>
+              <p>Designed and built Fuegito, an open-source C++ framework allowing students to easily implement two-player deterministic games and game-playing algorithms. Wrote implementations of Clobber and Tic Tac Toe, as well as eight AI algorithms including Alpha Beta search and Monte Carlo search. Tested the performance of Monte Carlo algorithms and their variations.
               <a href="https://sourceforge.net/projects/fuegito">
               sourceforge.net/projects/fuegito</a>
-            </div>
-          </div>
-          <div id="education-contact">
-            <div id="education" class="my-card card-content">
-              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-              <div class="w3-container">
-                <h3 class="w3-opacity"><b>University of Alberta</b></h3>
-                <h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2015</h5>
-                  <div>Bachelor of Science with Specialization</div>
-                  <div>Computing Science with Business Minor</div>
-                  <div>Industrial Internship Program</div>
-                  <p>Graduated with Distinction</p>
-                  <p>3.9 GPA</p>
-                  <p>​First Class Standing all years attended</p>
-                  <p>Member of the Programming Club</p>
-              </div>
-            </div>
-            <div class="dotted horizontal-divider"></div>
-
-            <div id="contact" class="my-card">
-              <h2><i class="fa fa-address-book"></i>Contact</h2>
-
-              <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Calgary, Canada</p>
-              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>colin.hunt@me.com</p>
-              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>780-915-2015</p>
-              <p><a href="https://www.linkedin.com/in/colin-hunt">
-                <i class="fa fa-linkedin fa-fw"></i>colin-hunt</a></p>
-              <p><a href="https://github.com/colinhunt">
-                <i class="fa fa-github fa-fw"></i>colinhunt</a></p>
-              <p><a href="https://elmlang.slack.com">
-                <i class="fa fa-slack fa-fw"></i>huntforacause</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="bottom">
-          <div id="projects-bottom">
-            <div id="ris">
-              <h3><b>Radiology Information System</b></h3>
-              <p>Worked with a school team to create a mock web-based Radiology Information System that stores and processes the information for a radiology lab, including patient data and medical images generated by diagnostic and therapeutic equipment. The application was built using the Python-based Flask web framework and uses SQLAlchemy to interface with a MySQL database. </p>
-              <a href="https://github.com/colinhunt/RIS">
-              github.com/colinhunt/RIS</a>
-            </div>
-            <div id="campus-maps">
-              <h3><b>UofA Campus Maps Extension</b></h3>
-              <p>Our team developed web and mobile applications that extend the university's campus map service to provide interior room-by-room directional services to students and staff. We used HTML5, CSS, and JavaScript for the front end with PhoneGap to create mobile apps. I wrote the backend pathfinding service in Python that was responsible for finding paths through a polygonal representation of campus buildings over multiple floors.
               </p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="header">
-        <span>Colin Hunt</span>
-        <span>3/3</span>
-      </div>
-
-      <div class="dotted horizontal-divider"></div>
-    
       <div id="awards">
-        <h2><i class="fa fa-certificate fa-fw"></i>Honors & Awards</h2>
+        <h3><i class="fa fa-certificate fa-fw"></i>Honors & Awards</h3>
 
         <div>
-        <h3>Dr. Brian Pinchbeck Memorial Industrial Internship Prize</h3>
+        <h4>Dr. Brian Pinchbeck Memorial Industrial Internship Prize</h4>
         <h5>
           <span><i class="fa fa-calendar fa-fw"></i>May 2015</span>
           <span><i class="fa fa-university fa-fw"></i>University of Alberta</span>
         </h5>
-        For superior academic achievement, oral and written communication skills and exceptional performance in the work experience component of the Industrial Internship Program in Computing Science.
+        For superior academic achievement, oral and written communication skills, and exceptional performance in the work experience component of the Industrial Internship Program in Computing Science.
         </div>
         <div>
-        <h3>CIPS Stan Heaps Memorial Scholarship</h3>
+        <h4>CIPS Stan Heaps Memorial Scholarship</h4>
         <h5>
           <span><i class="fa fa-calendar fa-fw"></i>Sep 2013</span>
           <span><i class="fa fa-university fa-fw"></i>University of Alberta</span>
@@ -180,7 +140,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
         
         <div>
-        <h3>Undergraduate Student Research Award</h3>
+        <h4>Undergraduate Student Research Award</h4>
         <h5>
           <span><i class="fa fa-calendar fa-fw"></i>May 2012</span>
           <span><i class="fa fa-university fa-fw"></i>Natural Sciences and Engineering Research Council of Canada</span>
@@ -189,7 +149,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
         
         <div>
-        <h3>Dean's Honor Roll with First-Class Standing</h3>
+        <h4>Dean's Honor Roll with First-Class Standing</h4>
         <h5>
           <span><i class="fa fa-university fa-fw"></i>University of Alberta</span>
         </h5>
@@ -197,13 +157,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
         
         <div>
-        <h3>Jason Lang Scholarship</h3>
+        <h4>Jason Lang Scholarship</h4>
         <h5>
           <span><i class="fa fa-university fa-fw"></i>University of Alberta</span>
         </h5>
         Lifetime maximum of three awarded for outstanding academic achievement.
         </div>
+      </div>    
       </div>
+
       <!-- End Right Column -->
           
     <!-- End Page Container -->
